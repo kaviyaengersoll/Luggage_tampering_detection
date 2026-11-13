@@ -1,0 +1,33 @@
+{
+  "source": "0",
+  "detector_model": "models/rtmdet_ins_s.onnx",
+  "pose_model": "models/rtmpose_m.onnx",
+  "output_dir": "output",
+  "dashboard_dir": "dashboard",
+  "detector_input_width": 640,
+  "detector_input_height": 640,
+  "person_class": 0,
+  "suitcase_class": 28,
+  "confidence_threshold": 0.25,
+  "person_confidence_threshold": 0.40,
+  "suitcase_confidence_threshold": 0.30,
+  "backpack_confidence_threshold": 0.35,
+  "handbag_confidence_threshold": 0.40,
+  "nms_threshold": 0.50,
+  "pose_input_width": 192,
+  "pose_input_height": 256,
+  "proximity_pixels": 0,
+  "consecutive_frames": 2,
+  "contact_edge_tolerance_pixels": 24,
+  "static_baggage_seconds": 3.0,
+  "cooldown_frames": 60,
+  "inference_interval_frames": 12,
+  "tile_long_axis": false,
+  "pose_minimum_confidence": 0.20,
+  "detector_output_format": "mmdeploy_dets_labels",
+  "detector_output_name": "",
+  "pose_x_output_name": "",
+  "pose_y_output_name": ""
+}
+
+
